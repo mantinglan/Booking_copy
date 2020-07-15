@@ -44,4 +44,4 @@ And you can press `copy` to copy whole text display above it.
 
 * Demo
 
-![](https://i.imgur.com/wqiffvs.png)
+![](https://i.imgur.com/FfYhWc8.png)
