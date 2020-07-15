@@ -1,0 +1,130 @@
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+#headerBar {
+  padding: 10px 0px;
+  text-align: center;
+  background-color: #eee;
+  font-size: 20px;
+  font-weight: bold;
+}
+.input {
+  height: 30px;
+  width: 50px;
+  margin: 5px;
+  padding: 0px 14px;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 rgba(35, 35, 35, 0.7);
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* Button Style */
+#cpybtn {
+  height: 30px;
+  margin: 15px;
+  padding: 0px 14px;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 rgba(35, 35, 35, 0.7);
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn {
+  height: 30px;
+  margin: 5px;
+  padding: 0px 14px;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 rgba(35, 35, 35, 0.7);
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+button.btn.disabled,
+button.btn:disabled {
+  cursor: not-allowed;
+  color: #000000;
+  opacity: 0.4;
+  box-shadow: 0 1px 0 rgba(35, 35, 35, 0.2);
+}
+
+/* Table Style */
+th.align-center {
+  text-align: center;
+}
+
+td.align-center {
+  text-align: center;
+}
+
+.table thead {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #6e5b52;
+  color: white;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 1vw;
+}
+
+.table-hover th {
+  border: 1px solid white;
+}
+
+.table-hover > tbody > tr.active:hover > td,
+.table-hover > tbody > tr:hover {
+  background-color: #e8ce53;
+}
+
+.cell-outter {
+  flex: 1;
+}
+.cell {
+  text-align: left;
+  font-weight: normal;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+.cell > div {
+  flex-direction: row;
+  flex: 1;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.title {
+  background-color: #efda81;
+  font-weight: bold;
+  width: 25%;
+}
+
+.content {
+  background-color: #f9f6e3;
+  overflow: hidden;
+  width: 75%;
+}
+.layout-row {
+  display: flex;
+  flex-direction: row;
+}
